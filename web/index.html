@@ -54,5 +54,22 @@
       });
     });
   </script>
+  <script src="firebase/app"></script>
+  <script src="firebase/analytics"></script>
+  <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyC4bFWwx5ROnKSqYR3fgTgPBRMShAlCt50",
+    authDomain: "netcoreinfo-f9c80.firebaseapp.com",
+    projectId: "netcoreinfo-f9c80",
+    storageBucket: "netcoreinfo-f9c80.appspot.com",
+    messagingSenderId: "269544759127",
+    appId: "1:269544759127:web:1a0f2561de73ae5013e812",
+    measurementId: "G-110TYLXFKZ"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
 </body>
 </html>
